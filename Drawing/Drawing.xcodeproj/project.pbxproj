@@ -11,6 +11,7 @@
 		765004B42AB588960027D41E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765004B32AB588960027D41E /* ContentView.swift */; };
 		765004B62AB588990027D41E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765004B52AB588990027D41E /* Assets.xcassets */; };
 		765004B92AB588990027D41E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765004B82AB588990027D41E /* Preview Assets.xcassets */; };
+		76B923982AB58B88002A05C7 /* HexagonParamters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B923972AB58B88002A05C7 /* HexagonParamters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		765004B82AB588990027D41E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		765004BE2AB5889A0027D41E /* DrawingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		765004C82AB5889A0027D41E /* DrawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B923972AB58B88002A05C7 /* HexagonParamters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParamters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				765004B32AB588960027D41E /* ContentView.swift */,
 				765004B52AB588990027D41E /* Assets.xcassets */,
 				765004B72AB588990027D41E /* Preview Content */,
+				76B923972AB58B88002A05C7 /* HexagonParamters.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B923982AB58B88002A05C7 /* HexagonParamters.swift in Sources */,
 				765004B42AB588960027D41E /* ContentView.swift in Sources */,
 				765004B22AB588960027D41E /* DrawingApp.swift in Sources */,
 			);
