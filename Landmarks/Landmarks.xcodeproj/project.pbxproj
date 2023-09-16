@@ -31,6 +31,7 @@
 		76F70D4F2AB5A0ED00DF5ABA /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F70D4B2AB5A0ED00DF5ABA /* HikeGraph.swift */; };
 		76F70D502AB5A0ED00DF5ABA /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F70D4C2AB5A0ED00DF5ABA /* HikeDetail.swift */; };
 		76F70D512AB5A0ED00DF5ABA /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F70D4D2AB5A0ED00DF5ABA /* HikeView.swift */; };
+		76F70D542AB5B70900DF5ABA /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F70D532AB5B70900DF5ABA /* CategoryHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		76F70D4B2AB5A0ED00DF5ABA /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		76F70D4C2AB5A0ED00DF5ABA /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		76F70D4D2AB5A0ED00DF5ABA /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		76F70D532AB5B70900DF5ABA /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		2F713E0629DC637D00FF3B8B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				76F70D522AB5B6F900DF5ABA /* Categories */,
 				76F70D492AB5A0ED00DF5ABA /* Hikes */,
 				76F70D3A2AB599C200DF5ABA /* Badges */,
 				2FE305BB29D328F70006803C /* ContentView.swift */,
@@ -183,6 +186,14 @@
 			path = Hikes;
 			sourceTree = "<group>";
 		};
+		76F70D522AB5B6F900DF5ABA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				76F70D532AB5B70900DF5ABA /* CategoryHome.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -256,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FE305BC29D328F70006803C /* ContentView.swift in Sources */,
+				76F70D542AB5B70900DF5ABA /* CategoryHome.swift in Sources */,
 				76F70D4F2AB5A0ED00DF5ABA /* HikeGraph.swift in Sources */,
 				76F70D442AB599C200DF5ABA /* Badge.swift in Sources */,
 				2F713E0429DC620900FF3B8B /* ModelData.swift in Sources */,
