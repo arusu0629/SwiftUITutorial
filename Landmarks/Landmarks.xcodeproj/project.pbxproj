@@ -38,6 +38,7 @@
 		76F70D5D2AB5C45500DF5ABA /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F70D5C2AB5C45500DF5ABA /* ProfileHost.swift */; };
 		76F70D5F2AB5C4CD00DF5ABA /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F70D5E2AB5C4CD00DF5ABA /* ProfileSummary.swift */; };
 		76F70D612AB5C61000DF5ABA /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F70D602AB5C61000DF5ABA /* HikeBadge.swift */; };
+		76F70D632AB7134A00DF5ABA /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F70D622AB7134A00DF5ABA /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		76F70D5C2AB5C45500DF5ABA /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		76F70D5E2AB5C4CD00DF5ABA /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		76F70D602AB5C61000DF5ABA /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		76F70D622AB7134A00DF5ABA /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 			children = (
 				76F70D5C2AB5C45500DF5ABA /* ProfileHost.swift */,
 				76F70D5E2AB5C4CD00DF5ABA /* ProfileSummary.swift */,
+				76F70D622AB7134A00DF5ABA /* ProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				76F70D482AB59FD000DF5ABA /* Hike.swift in Sources */,
 				76F70D422AB599C200DF5ABA /* BadgeSymbol.swift in Sources */,
 				7686A7742A61141B00315071 /* LandmarkList.swift in Sources */,
+				76F70D632AB7134A00DF5ABA /* ProfileEditor.swift in Sources */,
 				76F70D412AB599C200DF5ABA /* HexagonParamters.swift in Sources */,
 				76F70D512AB5A0ED00DF5ABA /* HikeView.swift in Sources */,
 				7686A7762A6115F900315071 /* LandmarkDetail.swift in Sources */,
