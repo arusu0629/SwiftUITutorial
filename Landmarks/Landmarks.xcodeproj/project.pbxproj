@@ -42,6 +42,7 @@
 		76F70D662AB7207900DF5ABA /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F70D652AB7207900DF5ABA /* PageViewController.swift */; };
 		76F70D682AB723F800DF5ABA /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F70D672AB723F800DF5ABA /* FeatureCard.swift */; };
 		76F70D6A2AB7266600DF5ABA /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F70D692AB7266600DF5ABA /* PageView.swift */; };
+		76F70D6C2AB72F1400DF5ABA /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F70D6B2AB72F1400DF5ABA /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		76F70D652AB7207900DF5ABA /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		76F70D672AB723F800DF5ABA /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		76F70D692AB7266600DF5ABA /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		76F70D6B2AB72F1400DF5ABA /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 				76F70D652AB7207900DF5ABA /* PageViewController.swift */,
 				76F70D672AB723F800DF5ABA /* FeatureCard.swift */,
 				76F70D692AB7266600DF5ABA /* PageView.swift */,
+				76F70D6B2AB72F1400DF5ABA /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				2F713E0429DC620900FF3B8B /* ModelData.swift in Sources */,
 				76F70D4E2AB5A0ED00DF5ABA /* GraphCapsule.swift in Sources */,
 				76F70D402AB599C200DF5ABA /* RotatedBadgeSymbol.swift in Sources */,
+				76F70D6C2AB72F1400DF5ABA /* PageControl.swift in Sources */,
 				2F713DFC29DB034400FF3B8B /* MapView.swift in Sources */,
 				76F70D582AB5BB8900DF5ABA /* CategoryItem.swift in Sources */,
 				76F70D502AB5A0ED00DF5ABA /* HikeDetail.swift in Sources */,
